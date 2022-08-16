@@ -1,0 +1,43 @@
+@media only screen and (max-width : 850px) {
+    main{
+        display: inline;
+        height: 100%;
+        width: 100%;
+    }   
+    .section2{
+        width: 90%;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .botoes{
+        align-items: center;
+    }
+    .btnencriptador, .btndesencriptador{
+        width: 35%;
+        height: 40px;
+    }
+}
+@media only screen and (max-width : 600px) {
+    section{
+        display: inline-block;
+    }
+    
+    .section2{  
+        width: 95%;
+        height: 500px;
+        margin: 7px;
+        padding: 10px;
+    } 
+   .botoes{
+    display: inline-flex;
+    margin-left: -40px;
+   }
+   .btnencriptador, .btndesencriptador{
+    font-size: 10px;
+    width: 20vh;
+   }   
+
+}
